@@ -1,10 +1,150 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GuardNet</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <h1>This is the GuardNet landing page.</h1>
-  </body>
-</html> 
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel="script" href="./scripts/script.js">
+</head>
+<body>
+    <div class="toolbar">
+        <div>
+            <img src="./assets/img/logo.png" alt="GuardNet Logo">
+            <h1>GuardNet</h1>
+        </div>
+        <div>
+            <p><a href="#segment-1-features">Para estudiantes</a></p>
+            <p><a href="#segment-2-features">Para empresas</a></p>
+            <p><a href="#about-us">Nosotros</a></p>
+            <p><a href="#contact-us">Contáctanos</a></p>
+        </div>
+    </div>
+    
+    <div class="hero">
+        <div class="hero-title">
+            <h1>Lo último en seguridad para navegar el internet</h1>
+        </div>
+        <div class="hero-text">
+            <h2>Protege tu privacidad y evita el robo de información. 
+                Analiza los enlaces a los que ingresas.
+                Todo esto y mucho más con GuardNet.</h2>
+        </div>
+        <div class="cta-button">
+            <button><a href="#">Prueba gratuita</a></button>
+        </div>
+        <div class="hero-image">
+            <img src="hero-image.png" alt="Hero Image">
+        </div>
+    </div>
+
+    <div id="features">
+        <h1>Consiga una aplicación gratuita con funciones 
+            avanzadas de privacidad y seguridad</h1>
+        <div class="feature-list">
+            <div class="feature">
+                <img src="feature-1.png" alt="Feature 1 Image">
+                <h2>Protección de datos</h2>
+                <p>GuardNet protege tus datos personales y evita 
+                    que sean robados por ciberdelincuentes.</p>
+            </div>
+            <div class="feature">
+                <img src="feature-2.png" alt="Feature 2 Image">
+                <h2>Seguridad en línea</h2>
+                <p>Analiza los enlaces a los que ingresas y 
+                    evita ser víctima de phishing.</p>
+            </div>
+            <div class="feature">
+                <img src="feature-3.png" alt="Feature 3 Image">
+                <h2>Privacidad en línea</h2>
+                <p>GuardNet protege tu privacidad en línea y evita que 
+                    terceros accedan a tu información personal.</p>
+            </div>
+        </div>
+        <div class="cta-button">
+            <button><a href="#">Prueba gratuita</a></button>
+        </div>
+    </div>
+
+    <div id="segment-1-features">
+        <div class="segment-1-info">
+            <img src="./assets/img/segment1.png" alt="Segment 1 image">
+            <p>Para estudiantes</p>
+        </div>
+        <div class="segment-1-feature">
+            <h1>Protección para la navegación en el internet</h1>
+            <p>GuardNet protege tus datos personales y evita 
+                que sean robados por ciberdelincuentes.</p>
+        </div>
+        <div class="cta-button">
+            <button><a href="#">Prueba gratuita</a></button>
+        </div>
+        <div class="segment-1-hero-image">
+            <img src="./assets/img/segment-1-hero-image.png" alt="Segment 1 Hero Image">
+        </div>
+    </div>
+
+    <div id="segment-2-features">
+        <div class="segment2-hero-image">
+            <img src="./assets/img/segment-2-hero-image.png" alt="Segment 2 Hero Image">
+        </div>
+        <div class="segment-2-info">
+            <img src="./assets/img/segment2.png" alt="Segment 2 Image">
+            <p>Para empresas</p>
+        </div>
+        <div class="segment-2-feature">
+            <h1>Protección para la navegación en el internet</h1>
+            <p>Nuestra avanzada protección vigilará los enlaces donde
+                se realizan sus transacciones.</p>
+        </div>
+        <div class="cta-button">
+            <button><a href="#">Prueba gratuita</a></button>
+        </div>
+    </div>
+
+    <div id="about-us">
+        <h1>Somos una startup que busca hacer del internet un
+            lugar seguro para que miles de personas 
+            puedan hacer lo que aman.</h1>
+        <h2>En GuardSoft, buscamos facilitar herramientas que
+            fomenten la navegación digital.
+        </h2>
+    </div>
+
+    <div id="contact-us">
+        <div class="contact-us-text">
+            <h1>¿Tiene dudas?</h1>
+            <h1>Contáctenos para recibir consejo de un profesional</h1>
+        </div>
+        <div class="contact-us-form">
+            <form action="">
+                <input type="email" placeholder="Correo electrónico">
+                <button><a href="#"><img src=""></a></button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="./assets/img/logo.png" alt="GuardNet Logo">
+                <h1>GuardNet</h1>
+            </div>
+            <div class="footer-links">
+                <p><a href="#">Para estudiantes</a></p>
+                <p><a href="#">Para empresas</a></p>
+                <p><a href="#">Acerca de GuardSoft</a></p>
+            </div>
+            <div class="footer-social">
+                <p><a href="#"><img src="./assets/img/facebook.png" alt="Facebook"></a></p>
+                <p><a href="#"><img src="./assets/img/twitter.png" alt="Twitter"></a></p>
+                <p><a href="#"><img src="./assets/img/instagram.png" alt="Instagram"></a></p>
+            </div>
+        </div>
+        <div class="footer-legal">
+            <p>Aviso legal © 2024 GuardSoft Inc. Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
